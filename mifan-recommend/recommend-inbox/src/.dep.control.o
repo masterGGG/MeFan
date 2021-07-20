@@ -1,0 +1,4 @@
+control.o: control.cpp proxy.h ../../../friend_backend/common/processor.h \
+ ../../../friend_backend/common/async_server.h \
+ ../../../friend_backend/common/log.h control.h \
+ ../../../friend_backend/common/log_processor.h

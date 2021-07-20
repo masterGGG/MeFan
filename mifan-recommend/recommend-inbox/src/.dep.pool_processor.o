@@ -1,0 +1,5 @@
+pool_processor.o: pool_processor.cpp pool_processor.h proto.h \
+ ../../../friend_backend/hiredis/hiredis.h \
+ ../../../friend_backend/hiredis/read.h \
+ ../../../friend_backend/hiredis/sds.h redis_command.h \
+ ../../../friend_backend/common/log.h protoRecommend.pb.h

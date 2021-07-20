@@ -1,0 +1,13 @@
+server.o: server.cpp ../../../friend_backend/common/async_server.h \
+ ../../../friend_backend/common/file_config_manager.h \
+ ../../../friend_backend/common/config_manager.h \
+ ../../../friend_backend/common/center_config_manager.h proxy.h \
+ ../../../friend_backend/common/processor.h control.h \
+ ../../../friend_backend/common/log_processor.h \
+ ../../../friend_backend/common/service_group.h \
+ ../../../friend_backend/common/service.h \
+ ../../../friend_backend/common/tcp_client.h \
+ ../../../friend_backend/common/common.h \
+ ../../../friend_backend/common/log.h \
+ ../../../friend_backend/common/strategy.h \
+ ../../../friend_backend/common/service_replicas.h

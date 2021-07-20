@@ -1,0 +1,5 @@
+redis_sentinel.o: redis_sentinel.cpp redis_sentinel.h \
+ ../../../friend_backend/hiredis/hiredis.h \
+ ../../../friend_backend/hiredis/read.h \
+ ../../../friend_backend/hiredis/sds.h \
+ ../../../friend_backend/common/log.h

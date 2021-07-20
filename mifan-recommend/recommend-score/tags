@@ -1,0 +1,346 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLICK_ARTICLE	config/define.inc.php	/^define('CLICK_ARTICLE',                 101);          \/\/ 点击阅读文章协议$/;"	d
+DEBUG	config/define.inc.php	/^define('DEBUG', true);$/;"	d
+FEEDID_LEN	config/define.inc.php	/^define('FEEDID_LEN', 22);$/;"	d
+MAX_OUTBOX_REQUEST_COUNT	config/define.inc.php	/^define('MAX_OUTBOX_REQUEST_COUNT', 100);$/;"	d
+MKAFKA_BROKER_IP	config/define.inc.php	/^define('MKAFKA_BROKER_IP', '10.1.1.187');$/;"	d
+NEWS_COMMENT	config/define.inc.php	/^define('NEWS_COMMENT',                   7005);$/;"	d
+NEWS_FANS	config/define.inc.php	/^define('NEWS_FANS',                      7006);          \/\/ 关注协议$/;"	d
+NEWS_LIKER	config/define.inc.php	/^define('NEWS_LIKER',                   7004);          \/\/ array($target_uid)$/;"	d
+OUTBOX_OPCODE	config/define.inc.php	/^define('OUTBOX_OPCODE', 0xFFF4);$/;"	d
+OUTBOX_RESPONSE_HEAD_LEN	config/define.inc.php	/^define('OUTBOX_RESPONSE_HEAD_LEN', 6);$/;"	d
+TIMEOUT	config/define.inc.php	/^define('TIMEOUT', 5);$/;"	d
+__construct	Mifan/noteScore.php	/^    public function __construct()$/;"	f
+__construct	lib/netclient_class.php	/^    function __construct($host, $port) $/;"	f
+__init_kafka_consumer	recommend-score.php	/^function __init_kafka_consumer($group_name, $topic_name, $debug_file, $error_file) {$/;"	f
+_according_to_user_verify	handler/feedhandler.php	/^function _according_to_user_verify($arr_uid) {$/;"	f
+_according_to_user_verify	handler/old_feed.php	/^function _according_to_user_verify($arr_uid) {$/;"	f
+_get_history_feed	handler/feedhandler.php	/^function _get_history_feed($uid, $count, &$arr_feed) {$/;"	f
+_get_history_feed	handler/old_feed.php	/^function _get_history_feed($uid, $count, &$arr_feed) {$/;"	f
+_history_computering	handler/feedhandler.php	/^function _history_computering($arr_uid, $end_time, &$arr_feed) {$/;"	f
+_history_computering	handler/old_feed.php	/^function _history_computering($arr_uid, $end_time, &$arr_feed) {$/;"	f
+_init_redis_connect	handler/feedhandler.php	/^function _init_redis_connect(&$cli) {$/;"	f
+_push_history_feed	handler/feedhandler.php	/^function _push_history_feed($uid, $count, $index, $arr_feed) {$/;"	f
+_push_history_feed	handler/old_feed.php	/^function _push_history_feed($uid, $count, $index, $arr_feed) {$/;"	f
+add_crontab	server.sh	/^add_crontab()$/;"	f
+addr_	handler/old_feed.php	/^    $addr_ = explode(':', $g_recommend_conf['backend']['recommend_server']);$/;"	v
+app_id	lib/socket_util.php	/^    $app_id = $key['app_id'];$/;"	v
+arr_feed	handler/feedhandler.php	/^            $arr_feed = array_slice($arr_new, 0, $count); $/;"	v
+arr_feed	handler/feedhandler.php	/^            $arr_feed = array_slice($arr_new, count($arr_new)-$count-1, $count);$/;"	v
+arr_feed	handler/feedhandler.php	/^        $arr_feed = array_merge($arr_new, $arr_old);$/;"	v
+arr_feed	handler/feedhandler.php	/^    $arr_feed = _get_history_feed($uid, $count, $arr_feed);$/;"	v
+arr_feed	handler/feedhandler.php	/^    $arr_feed = array();$/;"	v
+arr_feed	handler/old_feed.php	/^            $arr_feed = array_slice($arr_new, 0, $count); $/;"	v
+arr_feed	handler/old_feed.php	/^            $arr_feed = array_slice($arr_new, count($arr_new)-$count-1, $count);$/;"	v
+arr_feed	handler/old_feed.php	/^        $arr_feed = array_merge($arr_new, $arr_old);$/;"	v
+arr_feed	handler/old_feed.php	/^    $arr_feed = _get_history_feed($uid, $count, $arr_feed);$/;"	v
+arr_feed	handler/old_feed.php	/^    $arr_feed = array();$/;"	v
+arr_hot	handler/feedhandler.php	/^    $arr_hot = array();$/;"	v
+arr_like	handler/feedhandler.php	/^    $arr_like = array();$/;"	v
+arr_new	handler/feedhandler.php	/^    $arr_new = array();$/;"	v
+arr_new	handler/old_feed.php	/^    $arr_new = array();$/;"	v
+arr_old	handler/feedhandler.php	/^        $arr_old = array_slice($arr_old, 0, $count - count($arr_new));$/;"	v
+arr_old	handler/feedhandler.php	/^    $arr_old = array();$/;"	v
+arr_old	handler/old_feed.php	/^        $arr_old = array_slice($arr_old, 0, $count - count($arr_new));$/;"	v
+arr_old	handler/old_feed.php	/^    $arr_old = array();$/;"	v
+arr_outbox_addr	handler/feedhandler.php	/^    $arr_outbox_addr = explode(':', $g_score_conf['backend']['outbox_server']);$/;"	v
+arr_outbox_addr	handler/old_feed.php	/^    $arr_outbox_addr = explode(':', $g_recommend_conf['backend']['outbox_server']);$/;"	v
+arr_score	handler/feedhandler.php	/^    $arr_score = _according_to_user_verify($arr_uid);$/;"	v
+arr_score	handler/feedhandler.php	/^    $arr_score = array();$/;"	v
+arr_score	handler/old_feed.php	/^    $arr_score = _according_to_user_verify($arr_uid);$/;"	v
+arr_score	handler/old_feed.php	/^    $arr_score = array();$/;"	v
+arr_server_addr	handler/feedhandler.php	/^    $arr_server_addr = explode(':', $g_score_conf['backend']['tag_server']);$/;"	v
+arr_server_addr	handler/old_feed.php	/^    $arr_server_addr = explode(':', $g_recommend_conf['backend']['tag_server']);$/;"	v
+arr_slice_uid	handler/feedhandler.php	/^        $arr_slice_uid = array_slice($arr_uid, $i, MAX_OUTBOX_REQUEST_COUNT);$/;"	v
+arr_slice_uid	handler/old_feed.php	/^        $arr_slice_uid = array_slice($arr_uid, $i, MAX_OUTBOX_REQUEST_COUNT);$/;"	v
+arr_time_addr	handler/old_feed.php	/^        $arr_time_addr = explode(':', $g_recommend_conf['backend']['time_begin_server']);$/;"	v
+arr_time_addr	handler/old_feed.php	/^        $arr_time_addr = explode(':', $g_recommend_conf['backend']['time_end_server']);$/;"	v
+binary	handler/feedhandler.php	/^            $binary = substr($outbox_resp, OUTBOX_RESPONSE_HEAD_LEN + $j * FEEDID_LEN, FEEDID_LEN);$/;"	v
+binary	handler/old_feed.php	/^            $binary = substr($outbox_resp, OUTBOX_RESPONSE_HEAD_LEN + $j * FEEDID_LEN, FEEDID_LEN);$/;"	v
+check_fans_pfeed_unique	lib/socket_util.php	/^function check_fans_pfeed_unique($storage_server_socket, $target_id, $sender_id, $cmd_id, $app_id, $article_id) {$/;"	f
+check_liker_pfeed_unique	lib/socket_util.php	/^function check_liker_pfeed_unique($storage_server_socket, $target_id, $sender_id, $cmd_id, $app_id, $article_id) {$/;"	f
+check_pfeed_unique	lib/socket_util.php	/^function check_pfeed_unique($storage_server_socket, $target_id, $sender_id, $cmd_id, $app_id) {$/;"	f
+child_signal_handler	recommend-score.php	/^function child_signal_handler($signo)$/;"	f
+children_history_process	recommend-score.php	/^function children_history_process() {$/;"	f
+children_ret	recommend-score.php	/^                $children_ret = pcntl_wexitstatus($status);$/;"	v
+cli	handler/feedhandler.php	/^    $cli = new Redis();$/;"	v
+close_conn	lib/netclient_class.php	/^    function close_conn()$/;"	f
+cmd_id	lib/socket_util.php	/^    $cmd_id = $key['cmd_id'];$/;"	v
+conf	recommend-score.php	/^    $conf = new RdKafka\\Conf();$/;"	v
+conn	handler/feedhandler.php	/^    $conn = mysqli_connect($g_score_conf['db']['host'], $g_score_conf['db']['user'],$g_score_conf['db']['pwd'],$g_score_conf['db']['database']); \/\/建立数据库连接$/;"	v
+conn	handler/old_feed.php	/^    $conn = mysqli_connect($g_recommend_conf['db']['host'], $g_recommend_conf['db']['user'],$g_recommend_conf['db']['pwd'],$g_recommend_conf['db']['database']); \/\/建立数据库连接$/;"	v
+daemon	recommend-score.php	/^function daemon()$/;"	f
+data	lib/socket_util.php	/^        $data = json_decode(substr($response, 42, $row['len'] - 42), true); $/;"	v
+delete_crontab	server.sh	/^delete_crontab()$/;"	f
+delete_feed	lib/socket_util.php	/^function delete_feed($storage_server_socket, $key)$/;"	f
+delete_feed_user_defined	lib/socket_util.php	/^function delete_feed_user_defined($storage_server_socket, $key)$/;"	f
+delete_passive_feed	lib/socket_util.php	/^function delete_passive_feed($storage_server_socket, $key)$/;"	f
+do_history_process	handler/feedhandler.php	/^function do_history_process($uid, $count, $index) {$/;"	f
+do_history_process	handler/old_feed.php	/^function do_history_process($uid, $count, $index) {$/;"	f
+end	test.php	/^$end = gettimeofday(true);$/;"	v
+end_time	handler/feedhandler.php	/^            $end_time = $arr_feed['0']['timestamp'];$/;"	v
+end_time	handler/feedhandler.php	/^        $end_time = $new_end_time;$/;"	v
+end_time	handler/feedhandler.php	/^        $end_time = 0;$/;"	v
+end_time	handler/old_feed.php	/^            $end_time = $arr_feed['0']['timestamp'];$/;"	v
+end_time	handler/old_feed.php	/^        $end_time = $new_end_time;$/;"	v
+end_time	handler/old_feed.php	/^        $end_time = 0;$/;"	v
+except_fd_set	lib/netclient_class.php	/^            $except_fd_set = array($this->sock);$/;"	v
+except_fd_set	lib/netclient_class.php	/^        $except_fd_set = array($this->sock);$/;"	v
+fan	handler/feedhandler.php	/^        $fan = unpack('Lid', $id_list);$/;"	v
+fan	handler/old_feed.php	/^        $fan = unpack('Lid', $id_list);$/;"	v
+fdlock	recommend-score.php	/^    $fdlock = fopen(".\/lock","w+");$/;"	v
+fdpid	recommend-score.php	/^    $fdpid = fopen($g_pid_file,"wb");                 $/;"	v
+feed_cnt	handler/feedhandler.php	/^    $feed_cnt = count($arr_feed);$/;"	v
+feed_cnt	handler/old_feed.php	/^    $feed_cnt = count($arr_feed);$/;"	v
+feedid	handler/feedhandler.php	/^            $feedid = unpack("Luser_id\/Scmd_id\/Lapp_id\/Ltimestamp", $binary);$/;"	v
+feedid	handler/old_feed.php	/^            $feedid = unpack("Luser_id\/Scmd_id\/Lapp_id\/Ltimestamp", $binary);$/;"	v
+feedid_cmp	handler/feedhandler.php	/^function feedid_cmp($feedid_1, $feedid_2){$/;"	f
+feedid_cmp	handler/old_feed.php	/^function feedid_cmp($feedid_1, $feedid_2){$/;"	f
+feedid_cmp_score	handler/feedhandler.php	/^function feedid_cmp_score($feedid_1, $feedid_2){$/;"	f
+feedid_cmp_score	handler/old_feed.php	/^function feedid_cmp_score($feedid_1, $feedid_2){$/;"	f
+feedid_count	handler/feedhandler.php	/^        $feedid_count = ($rv['len'] - OUTBOX_RESPONSE_HEAD_LEN) \/ FEEDID_LEN;$/;"	v
+feedid_count	handler/old_feed.php	/^        $feedid_count = ($rv['len'] - OUTBOX_RESPONSE_HEAD_LEN) \/ FEEDID_LEN;$/;"	v
+fields	Mifan/noteScore.php	/^    protected static $fields = array($/;"	v
+fields	Mifan/noteScore.php	/^    public function fields()$/;"	f
+g_pid_arr	recommend-score.php	/^$g_pid_arr = array();$/;"	v
+g_pid_file	recommend-score.php	/^$g_pid_file = ".\/pid_recommend_score";$/;"	v
+g_redis_client	handler/feedhandler.php	/^        $g_redis_client = $cli;$/;"	v
+g_redis_client	handler/feedhandler.php	/^        $g_redis_client = _init_redis_connect($g_redis_client);$/;"	v
+g_stop	recommend-score.php	/^$g_stop = 0;$/;"	v
+getArticle	Mifan/noteScore.php	/^    public function getArticle()$/;"	f
+getAuthor	Mifan/noteScore.php	/^    public function getAuthor()$/;"	f
+getCmd	Mifan/noteScore.php	/^    public function getCmd()$/;"	f
+getUser	Mifan/noteScore.php	/^    public function getUser()$/;"	f
+get_comfeed	lib/socket_util.php	/^function get_comfeed($storage_server_socket, $mimi_id, $cmd_id, $timestamp, $app_id, &$feeds)$/;"	f
+get_comfeed_for_news_reply	lib/socket_util.php	/^function get_comfeed_for_news_reply($storage_server_socket, $mimi_id, $cmd_id, $timestamp, $app_id, $reply_key, &$feeds)$/;"	f
+get_comfeed_time_span	lib/socket_util.php	/^function get_comfeed_time_span($storage_server_socket, $mimi_id, $cmd_id, $starttime, $endtime, $app_id, &$feeds)$/;"	f
+get_feed	lib/socket_util.php	/^function get_feed($storage_server_socket, $key, &$result)$/;"	f
+get_feed_according_time	lib/socket_util.php	/^function get_feed_according_time($storage_server_socket, $mimi_id, $cmd_id, $timestamp, $app_id, $prev_num, $next_num, &$feeds)$/;"	f
+get_passive_feed	lib/socket_util.php	/^function get_passive_feed($storage_server_socket, $key, &$result)$/;"	f
+get_timestamp	handler/feedhandler.php	/^function get_timestamp($uid, $type) {$/;"	f
+get_timestamp	handler/old_feed.php	/^function get_timestamp($uid, $type) {$/;"	f
+get_update_mid	handler/feedhandler.php	/^function get_update_mid($uid, &$arr_uid) { $/;"	f
+get_update_mid	handler/old_feed.php	/^function get_update_mid($uid, &$arr_uid) { $/;"	f
+global_process_id	recommend-score.php	/^            $global_process_id = $i;$/;"	v
+hasArticle	Mifan/noteScore.php	/^    public function hasArticle()$/;"	f
+hasAuthor	Mifan/noteScore.php	/^    public function hasAuthor()$/;"	f
+hasCmd	Mifan/noteScore.php	/^    public function hasCmd()$/;"	f
+hasUser	Mifan/noteScore.php	/^    public function hasUser()$/;"	f
+host	lib/netclient_class.php	/^        $this->host = $host;$/;"	v
+host	lib/netclient_class.php	/^    var $host = '';$/;"	v
+id_list	handler/feedhandler.php	/^        $id_list = substr($id_list, 4);$/;"	v
+id_list	handler/feedhandler.php	/^    $id_list = substr($relation_resp, 4);$/;"	v
+id_list	handler/old_feed.php	/^        $id_list = substr($id_list, 4);$/;"	v
+id_list	handler/old_feed.php	/^    $id_list = substr($relation_resp, 4);$/;"	v
+ii	lib/socket_util.php	/^    $ii = 0;$/;"	v
+index	handler/feedhandler.php	/^        $index = (int)($feed_cnt * $index \/ $count);$/;"	v
+index	handler/feedhandler.php	/^        $index = 0;$/;"	v
+index	handler/old_feed.php	/^        $index = (int)($feed_cnt * $index \/ $count);$/;"	v
+index	handler/old_feed.php	/^        $index = 0;$/;"	v
+info_	handler/old_feed.php	/^        $info_ = new \\Mifan\\pushReq_feedInfo();$/;"	v
+info_	recommend-score.php	/^                $info_ = new \\Mifan\\noteScore();$/;"	v
+init_connect	lib/socket_util.php	/^function init_connect($ip, $port, &$socket)$/;"	f
+init_connect_and_nonblock	lib/socket_util.php	/^function init_connect_and_nonblock($ip, $port, &$socket)$/;"	f
+init_net	lib/socket_util.php	/^function init_net($ip, $port, &$socket, &$pack)$/;"	f
+kGroupName	recommend-score.php	/^    $kGroupName = HISTORY_GROUP;$/;"	v
+kTopic	recommend-score.php	/^    $kTopic = __init_kafka_consumer($kGroupName, HISTORY_TOPIC_NAME, HISTORY_DEBUG, HISTORY_ERROR);$/;"	v
+len	lib/socket_util.php	/^        $len = socket_write($socket, $pack, strlen($pack));$/;"	v
+log	lib/log.class.php	/^class log$/;"	c
+magic1	lib/socket_util.php	/^    $magic1 = $key['magic1'];$/;"	v
+magic2	lib/socket_util.php	/^    $magic2 = $key['magic2'];$/;"	v
+message	recommend-score.php	/^        $message = $kTopic->consume(0, TIMEOUT * 1000);$/;"	v
+mimi_id	lib/socket_util.php	/^    $mimi_id = $key['user_id'];$/;"	v
+myId	recommend-score.php	/^        $myId = pcntl_waitpid(-1, $status, 0);$/;"	v
+netclient	lib/netclient_class.php	/^class netclient $/;"	c
+new_end_time	handler/feedhandler.php	/^        $new_end_time = gettimeofday(true);\/\/如果拉取时需要啦最新的和历史的feedid，保存当前时间戳，可以避免最新数组的排序$/;"	v
+new_end_time	handler/old_feed.php	/^        $new_end_time = gettimeofday(true);\/\/如果拉取时需要啦最新的和历史的feedid，保存当前时间戳，可以避免最新数组的排序$/;"	v
+noteScore	Mifan/noteScore.php	/^class noteScore extends \\ProtobufMessage$/;"	c
+open_conn	lib/netclient_class.php	/^    function open_conn($time_out_sec) $/;"	f
+operate_feed_to_db	lib/socket_util.php	/^function operate_feed_to_db($storage_server_socket, $key, $feed)$/;"	f
+operate_passive_feed_to_db	lib/socket_util.php	/^function operate_passive_feed_to_db($storage_server_socket, $key, $feed)$/;"	f
+operate_update_feed_id_to_db	lib/socket_util.php	/^function operate_update_feed_id_to_db($redis_server_socket, $user_id, $timestamp) {$/;"	f
+outbox_client	handler/feedhandler.php	/^    $outbox_client = new netclient($arr_outbox_addr[0], $arr_outbox_addr[1]); $/;"	v
+outbox_client	handler/old_feed.php	/^    $outbox_client = new netclient($arr_outbox_addr[0], $arr_outbox_addr[1]); $/;"	v
+outbox_resp	handler/feedhandler.php	/^        $outbox_resp = FALSE;$/;"	v
+outbox_resp	handler/old_feed.php	/^        $outbox_resp = FALSE;$/;"	v
+outbox_rqst	handler/feedhandler.php	/^        $outbox_rqst = pack('LS', $outbox_rqst_len, OUTBOX_OPCODE) . $outbox_rqst_body;$/;"	v
+outbox_rqst	handler/old_feed.php	/^        $outbox_rqst = pack('LS', $outbox_rqst_len, OUTBOX_OPCODE) . $outbox_rqst_body;$/;"	v
+outbox_rqst_body	handler/feedhandler.php	/^        $outbox_rqst_body = '';$/;"	v
+outbox_rqst_body	handler/old_feed.php	/^        $outbox_rqst_body = '';$/;"	v
+outbox_rqst_len	handler/feedhandler.php	/^        $outbox_rqst_len = 4 + 2;$/;"	v
+outbox_rqst_len	handler/old_feed.php	/^        $outbox_rqst_len = 4 + 2;$/;"	v
+pack	lib/socket_util.php	/^            $pack = substr($pack, $len); $/;"	v
+pack	lib/socket_util.php	/^        $pack = substr($pack, $len); $/;"	v
+pack	lib/socket_util.php	/^    $pack = "";$/;"	v
+pack	lib/socket_util.php	/^    $pack = pack("S3", 6, 0xffff, 1);$/;"	v
+para	lib/socket_util.php	/^        $para = array_merge($request_pack_format, $request_pack_content);$/;"	v
+para	lib/socket_util.php	/^    $para = array_merge($request_pack_format, $request_pack_content);$/;"	v
+parent_signal_handler	recommend-score.php	/^function parent_signal_handler($signo)$/;"	f
+pid	recommend-score.php	/^        $pid = pcntl_fork();$/;"	v
+pid	recommend-score.php	/^    $pid = pcntl_fork();$/;"	v
+port	lib/netclient_class.php	/^        $this->port = $port;$/;"	v
+port	lib/netclient_class.php	/^    var $port = 0;$/;"	v
+process_control	recommend-score.php	/^function process_control()$/;"	f
+protobuf_	handler/old_feed.php	/^    $protobuf_ = new \\Mifan\\pushReq();$/;"	v
+read_fd_set	lib/netclient_class.php	/^            $read_fd_set = array($this->sock);$/;"	v
+read_fd_set	lib/netclient_class.php	/^        $read_fd_set = NULL;$/;"	v
+reboot_children_process	recommend-score.php	/^function reboot_children_process($key)$/;"	f
+recommend_stat	test.php	/^$recommend_stat = array($/;"	v
+recv_data	lib/socket_util.php	/^        $recv_data = socket_read($socket, 4096);$/;"	v
+recv_data	lib/socket_util.php	/^function recv_data($socket, $pack_size, &$pack)$/;"	f
+recv_data_and_nonblock	lib/socket_util.php	/^function recv_data_and_nonblock($socket, $pack_size, &$pack, $timeout)$/;"	f
+redis_cli	handler/feedhandler.php	/^    $redis_cli = new netclient($arr_server_addr[0], $arr_server_addr[1]);$/;"	v
+redis_cli	handler/old_feed.php	/^    $redis_cli = new netclient($arr_server_addr[0], $arr_server_addr[1]);$/;"	v
+redis_client	test.php	/^$redis_client = new Redis();$/;"	v
+relation_resp	handler/feedhandler.php	/^    $relation_resp = FALSE;$/;"	v
+relation_resp	handler/feedhandler.php	/^    $relation_resp = substr($relation_resp, 18);$/;"	v
+relation_resp	handler/old_feed.php	/^    $relation_resp = FALSE;$/;"	v
+relation_resp	handler/old_feed.php	/^    $relation_resp = substr($relation_resp, 18);$/;"	v
+relation_rqst	handler/feedhandler.php	/^    $relation_rqst = pack("LLsLLLLL", 18+4+4+4, 10086, 0xA102, 0, $uid, 0, $timestamp, 300);$/;"	v
+relation_rqst	handler/old_feed.php	/^    $relation_rqst = pack("LLsLLLLL", 18+4+4+4, 10086, 0xA102, 0, $uid, 0, $timestamp, 300);$/;"	v
+request	lib/socket_util.php	/^    $request = pack("LLsLLL", 22, 1001, 0xA101, 0, $user_id, $timestamp);$/;"	v
+request_pack	lib/socket_util.php	/^        $request_pack = call_user_func_array('pack',array_values($para));$/;"	v
+request_pack	lib/socket_util.php	/^    $request_pack = call_user_func_array('pack',array_values($para));$/;"	v
+request_pack_content	lib/socket_util.php	/^        $request_pack_content = array($/;"	v
+request_pack_content	lib/socket_util.php	/^    $request_pack_content = array($/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LLSL4LSL4a{$temp}");$/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LLSL4a{$temp}");$/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LLSL7La{$temp}");$/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LSL3");$/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LSL4");$/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LSL4L3LLSL7La{$temp}");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LS2L2S2");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LS2L3");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LSL3");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LSL4");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LSL4L3");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LSL7");$/;"	v
+res	handler/feedhandler.php	/^        $res = mysqli_query($conn, $sql);$/;"	v
+res	handler/old_feed.php	/^        $res = mysqli_query($conn, $sql);$/;"	v
+reset	Mifan/noteScore.php	/^    public function reset()$/;"	f
+resp	handler/old_feed.php	/^    $resp = "";$/;"	v
+resp_msg	lib/netclient_class.php	/^        $resp_msg = '';$/;"	v
+response	lib/socket_util.php	/^        $response = substr($response, $row['len']); $/;"	v
+response	lib/socket_util.php	/^        $response = substr($response, $row['len']);$/;"	v
+response	lib/socket_util.php	/^    $response = substr($response_pack, 8);$/;"	v
+response	lib/socket_util.php	/^    $response = substr($rv, 2); $/;"	v
+response_pack	lib/socket_util.php	/^        $response_pack = "";$/;"	v
+response_pack	lib/socket_util.php	/^    $response_pack = "";$/;"	v
+response_pack_content	lib/socket_util.php	/^        $response_pack_content = unpack("Llen\/Sret\/Sunits", $response_pack); $/;"	v
+response_pack_content	lib/socket_util.php	/^    $response_pack_content = unpack("Llen\/Sret\/Sunits", $response_pack); $/;"	v
+response_pack_content	lib/socket_util.php	/^    $response_pack_content = unpack("Sunits", $rv); $/;"	v
+restart	server.sh	/^restart()$/;"	f
+result	lib/socket_util.php	/^    $result = array($/;"	v
+result	lib/socket_util.php	/^    $result = socket_connect($socket, $ip, $port);$/;"	v
+rk	recommend-score.php	/^    $rk = new RdKafka\\Consumer($conf);$/;"	v
+row	lib/socket_util.php	/^        $row = unpack("Llen\/Lmimi\/Scmd_id\/Lapp_id\/Ltimestamp\/L2magic", $response);$/;"	v
+row	lib/socket_util.php	/^        $row = unpack('Llen', $response);$/;"	v
+row	lib/socket_util.php	/^    $row = unpack("Llen\/Lmimi\/Scmd_id\/Lapp_id\/Ltimestamp\/L2magic", $response);$/;"	v
+row	lib/socket_util.php	/^    $row = unpack("Llen\/Lmimi\/Scmd_id\/Lapp_id\/Ltimestamp\/L2magic\/Lsender_uid\/Ltarget_uid\/Lpassive_magic\/Lupdate_timestamp", $response);$/;"	v
+rqst	handler/old_feed.php	/^    $rqst = pack('LLSLL', 18 + strlen($seri_buf), 0, 2, 0, $uid).$seri_buf;$/;"	v
+rqst_content	lib/socket_util.php	/^    $rqst_content = array($/;"	v
+rqst_format	lib/socket_util.php	/^    $rqst_format = array('LS3LSL2');$/;"	v
+rqst_msg	lib/netclient_class.php	/^                    $rqst_msg = substr($rqst_msg, $rv_2);$/;"	v
+rqst_msg_rmng_len	lib/netclient_class.php	/^        $rqst_msg_rmng_len = strlen($rqst_msg);$/;"	v
+rqst_pack	lib/socket_util.php	/^    $rqst_pack = call_user_func_array('pack', array_values($rqst_para));$/;"	v
+rqst_para	lib/socket_util.php	/^    $rqst_para = array_merge($rqst_format, $rqst_content);$/;"	v
+rv	handler/feedhandler.php	/^            $rv = $g_redis_client->hSet('feeds:recommend:'.$uid.':stat', 'startTime', (int)$time);$/;"	v
+rv	handler/feedhandler.php	/^            $rv = $g_redis_client->hdel('feeds:recommend:'.$uid.':stat', 'endTime');$/;"	v
+rv	handler/feedhandler.php	/^            $rv = $g_redis_client->hdel('feeds:recommend:'.$uid.':stat', 'startTime');$/;"	v
+rv	handler/feedhandler.php	/^        $rv = $g_redis_client->hSet('feeds:recommend:'.$uid.':stat', 'endTime', (int)$time);$/;"	v
+rv	handler/feedhandler.php	/^        $rv = $g_redis_client->zRemRangeByRank('feeds:recommend:'.$uid.':hot', $stat['hotIndex'] - $stat['hotCount'], -1);$/;"	v
+rv	handler/feedhandler.php	/^        $rv = $g_redis_client->zRemRangeByRank('feeds:recommend:'.$uid.':hot', 0, -1);$/;"	v
+rv	handler/feedhandler.php	/^        $rv = $g_redis_client->zRemRangeByRank('feeds:recommend:'.$uid.':like', $stat['likeIndex'] - $stat['likeCount'], -1);$/;"	v
+rv	handler/feedhandler.php	/^        $rv = $g_redis_client->zRemRangeByRank('feeds:recommend:'.$uid.':like', 0, -1);$/;"	v
+rv	handler/feedhandler.php	/^        $rv = unpack('Llen\/Sresult', $outbox_resp);$/;"	v
+rv	handler/feedhandler.php	/^    $rv = $g_redis_client->hMset('feeds:recommend:'.$uid.':stat', $stat);$/;"	v
+rv	handler/feedhandler.php	/^    $rv = $g_redis_client->hSet('feeds:recommend:'.$uid.':stat', 'updatable', 2);$/;"	v
+rv	handler/feedhandler.php	/^    $rv = call_user_func_array(array($g_redis_client, 'zadd'), $arr_hot);$/;"	v
+rv	handler/feedhandler.php	/^    $rv = call_user_func_array(array($g_redis_client, 'zadd'), $arr_like);$/;"	v
+rv	handler/feedhandler.php	/^    $rv = unpack("Lunits", $relation_resp);$/;"	v
+rv	handler/feedhandler.php	/^    $rv = unpack('Llen\/Lseq\/scmd_id\/Lcode\/Lmimi', $relation_resp);$/;"	v
+rv	handler/old_feed.php	/^        $rv = unpack('Llen\/Sresult', $outbox_resp);$/;"	v
+rv	handler/old_feed.php	/^    $rv = unpack("Lunits", $relation_resp);$/;"	v
+rv	handler/old_feed.php	/^    $rv = unpack('Llen\/Lseq\/scmd_id\/Lcode\/Lmimi', $relation_resp);$/;"	v
+rv	handler/old_feed.php	/^    $rv = unpack('Llen\/Lseq\/scmd_id\/Lcode\/Lmimi', $resp);$/;"	v
+rv	lib/socket_util.php	/^    $rv =  check_pfeed_unique($storage_server_socket, $target_id, $sender_id, $cmd_id, $app_id);$/;"	v
+rv	test.php	/^$rv = $redis_client->hSet('feeds:recommend:38743982:stat', 'endTime', (int)$end);$/;"	v
+rv	test.php	/^$rv = $redis_client->hSet('feeds:recommend:38743982:stat', 'startTime', 1556343401);$/;"	v
+rv	test.php	/^$rv = $redis_client->hdel('feeds:recommend:38743982:stat', 'endTime');$/;"	v
+rv	test.php	/^$rv = $redis_client->hdel('feeds:recommend:38743982:stat', 'startTime');$/;"	v
+rv	test.php	/^$rv = $redis_client->zRemRangeByRank('feeds:recommend:'.$uid.':like', 0, -1);$/;"	v
+rv	test.php	/^$rv = call_user_func_array(array($redis_client, 'zadd'), array('test-1', 10, 'summer', 15, 'leon', 7, 'ian'));$/;"	v
+rv_0	handler/old_feed.php	/^    $rv_0 = unpack('Llen\/Lseq_num\/Scmd_id\/Lstatus_code\/Luser_id', $time_resp);$/;"	v
+rv_0	handler/old_feed.php	/^    $rv_0 = unpack('Llen\/Lseq_num\/Scmd_id\/Lstatus_code\/Luser_id\/Ltimestamp', $time_resp);$/;"	v
+rv_0	lib/netclient_class.php	/^            $rv_0 = @socket_select($read_fd_set, $write_fd_set, $except_fd_set, $time_out_sec);   \/\/ TODO$/;"	v
+rv_0	lib/netclient_class.php	/^        $rv_0 = @socket_select($read_fd_set, $write_fd_set, $except_fd_set, $time_out_sec);$/;"	v
+rv_1	lib/netclient_class.php	/^                    $rv_1 = @socket_read($this->sock, 4096);$/;"	v
+rv_1	lib/netclient_class.php	/^            $rv_1 = @socket_get_option($this->sock, SOL_SOCKET, SO_ERROR);$/;"	v
+rv_2	lib/netclient_class.php	/^                    $rv_2 = @socket_write($this->sock, $rqst_msg);$/;"	v
+rv_unpack	lib/netclient_class.php	/^                        $rv_unpack = unpack('Llen', $resp_msg);$/;"	v
+s_file_name	lib/log.class.php	/^            $s_file_name = substr(basename($s_target), 0, strrpos(basename($s_target), '.log')) . '_' . time() . '.log';$/;"	v
+s_now_day	lib/log.class.php	/^        $s_now_day  = date('Y_m_d');$/;"	v
+s_now_time	lib/log.class.php	/^        $s_now_time = date('[y-m-d H:i:s]');$/;"	v
+s_target	lib/log.class.php	/^        $s_target   = LOG_PATH . DS;$/;"	v
+s_time	lib/socket_util.php	/^            $s_time = time();$/;"	v
+s_time	lib/socket_util.php	/^    $s_time = time();$/;"	v
+send_data	lib/socket_util.php	/^function send_data($socket, $pack)$/;"	f
+send_data_and_nonblock	lib/socket_util.php	/^function send_data_and_nonblock($socket, $pack, $timeout)$/;"	f
+send_rqst	lib/netclient_class.php	/^    function send_rqst($rqst_msg, $time_out_sec)$/;"	f
+seri_buf	handler/old_feed.php	/^    $seri_buf = $protobuf_->serializeToString();$/;"	v
+setArticle	Mifan/noteScore.php	/^    public function setArticle($value)$/;"	f
+setAuthor	Mifan/noteScore.php	/^    public function setAuthor($value)$/;"	f
+setCmd	Mifan/noteScore.php	/^    public function setCmd($value)$/;"	f
+setUser	Mifan/noteScore.php	/^    public function setUser($value)$/;"	f
+set_timestamp	handler/feedhandler.php	/^function set_timestamp($uid, $time, $type) {$/;"	f
+set_timestamp	handler/old_feed.php	/^function set_timestamp($uid, $time, $type) {$/;"	f
+sock	lib/netclient_class.php	/^        $this->sock = NULL;$/;"	v
+sock	lib/netclient_class.php	/^    var $sock = NULL;$/;"	v
+socket	lib/socket_util.php	/^    $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);$/;"	v
+sql	handler/feedhandler.php	/^        $sql = "SELECT * FROM user_verify where account=$uid";$/;"	v
+sql	handler/old_feed.php	/^        $sql = "SELECT * FROM user_verify where account=$uid";$/;"	v
+start	server.sh	/^start()$/;"	f
+start_time	handler/feedhandler.php	/^        $start_time = 0;$/;"	v
+start_time	handler/feedhandler.php	/^    $start_time = get_timestamp($uid, 'start');$/;"	v
+start_time	handler/old_feed.php	/^        $start_time = 0;$/;"	v
+start_time	handler/old_feed.php	/^    $start_time = get_timestamp($uid, 'start');$/;"	v
+stat	handler/feedhandler.php	/^    $stat = $g_redis_client->hGetall('feeds:recommend:'.$uid.':stat');$/;"	v
+stat	test.php	/^$stat = $redis_client->hmGet('feeds:recommend:'.$uid.':stat', array('readable', 'updatable', 'likeCount', 'likeIndex', 'hotCount', 'hotIndex'));$/;"	v
+state	server.sh	/^state()$/;"	f
+stop	server.sh	/^stop()$/;"	f
+temp	lib/socket_util.php	/^        $temp = strlen($feed['data']); $/;"	v
+temp	lib/socket_util.php	/^        $temp = unpack("Llen", $response_pack);$/;"	v
+temp	lib/socket_util.php	/^    $temp = unpack("Llen", $response_pack);$/;"	v
+temp	lib/socket_util.php	/^    $temp = unpack("Llen\/Lseq\/scmd\/Lcode\/Lmid", $response_pack);$/;"	v
+temp_key	lib/socket_util.php	/^        $temp_key = json_decode($row['data'],true);$/;"	v
+time	handler/feedhandler.php	/^        $time = $g_redis_client->hGet('feeds:recommend:'.$uid.':stat', 'endTime');$/;"	v
+time	handler/feedhandler.php	/^        $time = $g_redis_client->hGet('feeds:recommend:'.$uid.':stat', 'startTime');$/;"	v
+time_client	handler/old_feed.php	/^    $time_client = new netclient($arr_time_addr[0], $arr_time_addr[1]); $/;"	v
+time_resp	handler/old_feed.php	/^    $time_resp = FALSE;$/;"	v
+time_rqst	handler/old_feed.php	/^    $time_rqst = pack('L2SL2', 18, 0, 0x2001, 0, $uid);$/;"	v
+time_rqst	handler/old_feed.php	/^    $time_rqst = pack('L2SL2L', 22, 0, 0x2002, 0, $uid, $time);$/;"	v
+timeline	handler/feedhandler.php	/^    $timeline = $end_time - 3600 * 3;$/;"	v
+timeline	handler/old_feed.php	/^    $timeline = $end_time - 3600 * 3;$/;"	v
+timestamp	handler/feedhandler.php	/^    $timestamp = gettimeofday(true);$/;"	v
+timestamp	handler/old_feed.php	/^    $timestamp = gettimeofday(true);$/;"	v
+timestamp	lib/socket_util.php	/^    $timestamp = $key['timestamp'];$/;"	v
+topic	recommend-score.php	/^    $topic = $rk->newTopic($topic_name, $topicConf);$/;"	v
+topicConf	recommend-score.php	/^    $topicConf = new RdKafka\\TopicConf();$/;"	v
+uid	test.php	/^$uid = 38743982;    $/;"	v
+uid_count	handler/feedhandler.php	/^    $uid_count = count($arr_uid);$/;"	v
+uid_count	handler/old_feed.php	/^    $uid_count = count($arr_uid);$/;"	v
+units	lib/socket_util.php	/^    $units = $response_pack_content['units']; $/;"	v
+usage	server.sh	/^usage()$/;"	f
+value	Mifan/noteScore.php	/^        $value = $this->get(self::ARTICLE);$/;"	v
+value	Mifan/noteScore.php	/^        $value = $this->get(self::AUTHOR);$/;"	v
+value	Mifan/noteScore.php	/^        $value = $this->get(self::CMD);$/;"	v
+value	Mifan/noteScore.php	/^        $value = $this->get(self::USER);$/;"	v
+write	lib/log.class.php	/^    public static function write($s_message, $s_type = 'log')$/;"	f
+write_fd_set	lib/netclient_class.php	/^                $write_fd_set = array($this->sock);$/;"	v
+write_fd_set	lib/netclient_class.php	/^            $write_fd_set = NULL;$/;"	v
+write_fd_set	lib/netclient_class.php	/^        $write_fd_set = array($this->sock);$/;"	v

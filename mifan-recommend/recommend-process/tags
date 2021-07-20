@@ -1,0 +1,333 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEBUG	config/define.inc.php	/^define('DEBUG', true);$/;"	d
+DELETE_SECRET_KEY	config/define.inc.php	/^define('DELETE_SECRET_KEY', 'xiaoba7564'); \/\/删除所需要密钥$/;"	d
+NEWS_ARTICLE	config/define.inc.php	/^define('NEWS_ARTICLE',                   7003);          \/\/ array($target_uid)$/;"	d
+NEWS_COMMENT	config/define.inc.php	/^define('NEWS_COMMENT',                   7005);          \/\/ array($target_uid)$/;"	d
+NEWS_LIKER	config/define.inc.php	/^define('NEWS_LIKER',                   7004);          \/\/ array($target_uid)$/;"	d
+NEWS_UNLIKER	config/define.inc.php	/^define('NEWS_UNLIKER',                   7006);          \/\/ 取消点赞 $/;"	d
+OUTBOX_IP	config/define.inc.php	/^define('OUTBOX_IP', '0.0.0.0');$/;"	d
+OUTBOX_PORT	config/define.inc.php	/^define('OUTBOX_PORT', '43321');$/;"	d
+PASSIVE_MESSAGE	config/define.inc.php	/^define('PASSIVE_MESSAGE', 22024);$/;"	d
+RELATION_IP	config/define.inc.php	/^define('RELATION_IP', '0.0.0.0');$/;"	d
+RELATION_PORT	config/define.inc.php	/^define('RELATION_PORT', '21145');$/;"	d
+STORAGE_IP	config/define.inc.php	/^define('STORAGE_IP', '0.0.0.0');$/;"	d
+STORAGE_PORT	config/define.inc.php	/^define('STORAGE_PORT', '2222');$/;"	d
+TAG_CACHE_IP	config/define.inc.php	/^define('TAG_CACHE_IP', '0.0.0.0');$/;"	d
+TAG_CACHE_PORT	config/define.inc.php	/^define('TAG_CACHE_PORT', '22080');$/;"	d
+TIMEOUT	config/define.inc.php	/^define('TIMEOUT', 5);$/;"	d
+add_crontab	server.sh	/^function add_crontab()$/;"	f
+allow_ce	handler/feedhandler.php	/^    $allow_ce = array($/;"	v
+app_id	lib/socket_util.php	/^    $app_id = $key['app_id'];$/;"	v
+arr_str	test/test.php	/^                             $arr_str = $str['img_url'];$/;"	v
+begin_time	test/t_storage_server.php	/^$begin_time = 1308240000;$/;"	v
+child_signal_handler	process.php	/^function child_signal_handler($signo)$/;"	f
+children_process	process.php	/^function children_process()$/;"	f
+children_ret	process.php	/^                $children_ret = pcntl_wexitstatus($status);$/;"	v
+cmd_arr_only_passive	handler/feedhandler.php	/^        $cmd_arr_only_passive = array(7023,7024);$/;"	v
+cmd_id	lib/socket_util.php	/^    $cmd_id = $key['cmd_id'];$/;"	v
+cmd_id	test/t_mysql.php	/^$cmd_id = 7001;$/;"	v
+cmd_id	test/t_mysql.php	/^$cmd_id = 7002;$/;"	v
+cmd_id	test/t_mysql.php	/^$cmd_id = 7009;$/;"	v
+comfeed	test/t_bigpacket.php	/^$comfeed = array($/;"	v
+comfeed	test/t_storage_server.php	/^$comfeed = array($/;"	v
+comfeed	test/t_storage_server2.php	/^$comfeed = array($/;"	v
+comfeed	test/t_update_feed.php	/^$comfeed = array($/;"	v
+comment	handler/feedhandler.php	/^                    $comment = array($/;"	v
+comment	handler/feedhandler.php	/^                $comment = array($/;"	v
+comment	handler/feedhandler.php	/^            $comment = array($/;"	v
+comment	handler/feedhandler.php	/^        $comment = array($/;"	v
+completefeed	test/t_bigpacket.php	/^$completefeed = array($/;"	v
+completefeed	test/t_insert_feed.php	/^$completefeed = array($/;"	v
+completefeed	test/t_storage_server.php	/^$completefeed = array($/;"	v
+completefeed	test/t_storage_server2.php	/^$completefeed = array($/;"	v
+completefeed	test/t_update_feed.php	/^$completefeed = array($/;"	v
+completefeed	test/test2.php	/^$completefeed = array(                                                         $/;"	v
+content	test/test.php	/^                             $content = $img_url_arr[0] . ';' . $img_url_arr[1] . ';' . $img_url_arr[2] . ';' .$img_url_arr[3];$/;"	v
+content	test/test.php	/^                             $content = implode(';', $img_url_arr);$/;"	v
+content	test/test.php	/^                         $content = $feed_content['img_url'][0] . ';' . $feed_content['img_url'][1] . ';' .$/;"	v
+cur	handler/feedhandler.php	/^        $cur = unpack('Ltag', substr($feed["data"], 4 * $i));$/;"	v
+daemon	process.php	/^function daemon()$/;"	f
+data_log	handler/feedhandler.php	/^function data_log($feed)$/;"	f
+data_log_binary	handler/feedhandler.php	/^function data_log_binary($pack, $pre)$/;"	f
+data_log_pre	handler/feedhandler.php	/^function data_log_pre($feed,$pre)$/;"	f
+delete_crontab	server.sh	/^function delete_crontab()$/;"	f
+delete_feed	lib/socket_util.php	/^function delete_feed($storage_server_socket, $key)$/;"	f
+delete_feed_user_defined	lib/socket_util.php	/^function delete_feed_user_defined($storage_server_socket, $key)$/;"	f
+delete_passive_feed	lib/socket_util.php	/^function delete_passive_feed($storage_server_socket, $key)$/;"	f
+end_time	test/t_storage_server.php	/^$end_time = 1308240000;$/;"	v
+fan	handler/feedhandler.php	/^        $fan = unpack('Lid\/Ltime', $id_list);$/;"	v
+fd	read.php	/^$fd = fopen($argv[1],"r");$/;"	v
+fdlock	process.php	/^    $fdlock = fopen(".\/lock","w+");$/;"	v
+fdpid	process.php	/^    $fdpid = fopen($g_pid_file,"wb");                 $/;"	v
+feed	handler/feedhandler.php	/^        $feed = unpack('Slen\/Sopt_id\/Lsender_id\/Cversion\/Ltimestamp\/Lapp_id\/Lmagic1\/Lmagic2\/Scmd_id\/Luser_id\/Cevaluate', $pack);$/;"	v
+feed	handler/feedhandler.php	/^        $feed = unpack('Slen\/Sopt_id\/Lsender_uid\/Cversion\/Ltimestamp\/Lapp_id\/Lmagic1\/Lmagic2\/Scmd_id\/Luser_id\/Cflag\/a430source_content\/Lsource_id\/Lsource_timestamp\/a430comment_content\/Lcomment_timestamp\/Lcomment_id\/Ltarget_uid', $pack);$/;"	v
+feed	handler/feedhandler.php	/^        $feed = unpack('Slen\/Sopt_id\/Lsender_uid\/Cversion\/Ltimestamp\/Lapp_id\/Lmagic1\/Lmagic2\/Scmd_id\/Luser_id\/Ltarget_uid\/a32verify',$pack);$/;"	v
+feed	handler/feedhandler.php	/^        $feed = unpack('Slen\/Sopt_id\/Luser_id\/Cversion\/Ltimestamp\/Lapp_id\/Lmagic1\/Lmagic2\/Scmd_id\/a32verify',$pack);$/;"	v
+feed	handler/feedhandler.php	/^    $feed = unpack('Slen\/Sopt_id', $pack);$/;"	v
+feed	process.php	/^                $feed = unpack("Slen\/Scmd_id\/Luser_id\/Cversion\/Ltimestamp", $pack); $/;"	v
+feed	process.php	/^                $feed = unpack("Slen\/Scmd_id\/Luser_id\/Cversion\/Ltimestamp\/Lapp_id", $pack); $/;"	v
+feed	process.php	/^        $feed = unpack("Slen\/Scmd_id\/Luser_id\/Cversion\/Ltimestamp", $pack); $/;"	v
+feed	read.php	/^$feed = unpack("Slen\/Scmd_id\/Luser_id\/Cversion\/Ltimestamp\/Lapp_id",$pack);$/;"	v
+feed	test/t_mysql.php	/^$feed = "";$/;"	v
+feed	test/t_storage_server.php	/^$feed = array($/;"	v
+feed	test/t_storage_server2.php	/^$feed = array($/;"	v
+feed	test/t_temp.php	/^$feed = array($/;"	v
+feed	test/t_temp.php	/^$feed = unpack("Slen\/Scmd_id\/Luser_id\/Cversion\/Ltimestamp", $pack); $/;"	v
+feed	test/test2.php	/^$feed = array($/;"	v
+feed_content	handler/feedhandler.php	/^            $feed_content = $result;$/;"	v
+feed_content	handler/feedhandler.php	/^        $feed_content = $result;$/;"	v
+feed_reconnect_flag	handler/feedhandler.php	/^    $feed_reconnect_flag = $input_arr['feed_reconnect_flag'];$/;"	v
+feed_reconnect_flag	process.php	/^        $feed_reconnect_flag = 0;$/;"	v
+feed_reconnect_flag	process.php	/^        $feed_reconnect_flag = 1;$/;"	v
+feed_reconnect_flag	read.php	/^    $feed_reconnect_flag = 0;$/;"	v
+feed_reconnect_flag	read.php	/^    $feed_reconnect_flag = 1;$/;"	v
+feed_reconnect_flag	test/t_temp.php	/^    $feed_reconnect_flag = 0;$/;"	v
+feed_reconnect_flag	test/t_temp.php	/^    $feed_reconnect_flag = 1;$/;"	v
+feed_socket	handler/feedhandler.php	/^    $feed_socket = $input_arr['feed_socket'];$/;"	v
+feed_update_sync	handler/feedhandler.php	/^function feed_update_sync($pack, $input_arr, &$output_arr)$/;"	f
+feeddelete	handler/feedhandler.php	/^function feeddelete($pack, $input_arr, &$output_arr)$/;"	f
+feedhandle	handler/feedhandler.php	/^function feedhandle($feed, $input_arr, &$output_arr)$/;"	f
+flag	handler/feedhandler.php	/^        $flag = 0;$/;"	v
+flag	handler/feedhandler.php	/^        $flag = 1;$/;"	v
+g_db_handler	test/t_mysql.php	/^$g_db_handler = new dbhandler(); $/;"	v
+g_pid_arr	process.php	/^$g_pid_arr = array();$/;"	v
+g_pid_file	process.php	/^$g_pid_file = ".\/outbox_pid";$/;"	v
+g_pid_file	read.php	/^$g_pid_file = ".\/outbox_pid";$/;"	v
+g_redis_server_socket	handler/feedhandler.php	/^    $g_redis_server_socket = $input_arr['redis_server_socket'];$/;"	v
+g_stop	process.php	/^$g_stop = 0;$/;"	v
+g_tag_server_socket	handler/feedhandler.php	/^    $g_tag_server_socket = $input_arr['tag_server_socket'];$/;"	v
+get_comfeed	lib/socket_util.php	/^function get_comfeed($storage_server_socket, $mimi_id, $cmd_id, $timestamp, $app_id, &$feeds)$/;"	f
+get_comfeed_for_news_reply	lib/socket_util.php	/^function get_comfeed_for_news_reply($storage_server_socket, $mimi_id, $cmd_id, $timestamp, $app_id, $reply_key, &$feeds)$/;"	f
+get_comfeed_time_span	lib/socket_util.php	/^function get_comfeed_time_span($storage_server_socket, $mimi_id, $cmd_id, $starttime, $endtime, $app_id, &$feeds)$/;"	f
+get_feed	lib/socket_util.php	/^function get_feed($storage_server_socket, $key, &$result)$/;"	f
+get_feed_according_time	lib/socket_util.php	/^function get_feed_according_time($storage_server_socket, $mimi_id, $cmd_id, $timestamp, $app_id, $prev_num, $next_num, &$feeds)$/;"	f
+get_feed_num	test/test.php	/^                         $get_feed_num = count($result_feed); $/;"	v
+get_img_num	test/test.php	/^                         $get_img_num = count($img_url_arr);$/;"	v
+get_passive_feed	lib/socket_util.php	/^function get_passive_feed($storage_server_socket, $key, &$result)$/;"	f
+handle	handler/feedhandler.php	/^        $handle = fopen($str_log_file, 'ab');$/;"	v
+http_post	handler/feedhandler.php	/^function http_post($arr_para,$server_url)$/;"	f
+i	handler/feedhandler.php	/^            $i = 0;$/;"	v
+i	handler/feedhandler.php	/^        $i = 0;$/;"	v
+id_list	handler/feedhandler.php	/^        $id_list = substr($id_list, 8);$/;"	v
+id_list	handler/feedhandler.php	/^    $id_list = substr($relation_resp, 18 + 4);$/;"	v
+ii	lib/socket_util.php	/^    $ii = 0;$/;"	v
+img_url_arr	test/test.php	/^                             $img_url_arr = array_merge($img_url_arr, $arr_str);$/;"	v
+img_url_arr	test/test.php	/^                         $img_url_arr = $feed_content['img_url']; $/;"	v
+img_url_num	test/test.php	/^                     $img_url_num = count($feed_content['img_url']);$/;"	v
+init_connect	lib/socket_util.php	/^function init_connect($ip, $port, &$socket)$/;"	f
+init_connect_and_nonblock	lib/socket_util.php	/^function init_connect_and_nonblock($ip, $port, &$socket)$/;"	f
+init_net	lib/socket_util.php	/^function init_net($ip, $port, &$socket, &$pack)$/;"	f
+input_arr	process.php	/^            $input_arr = array("storage_server_socket" => $storage_server_socket$/;"	v
+input_arr	process.php	/^            $input_arr = array($/;"	v
+input_arr	read.php	/^$input_arr = array("feed_socket" => $feed_socket,$/;"	v
+input_arr	test/t_temp.php	/^     $input_arr = array("storage_server_socket" => $storage_server_socket$/;"	v
+input_arr	test/t_temp.php	/^$input_arr = array("feed_socket" => $feed_socket,$/;"	v
+input_arr	test/test2.php	/^ $input_arr = array("storage_server_socket" => $storage_server_socket$/;"	v
+is_feed_valid	handler/feedhandler.php	/^function is_feed_valid($feed)$/;"	f
+is_update	handler/feedhandler.php	/^                $is_update = 1;$/;"	v
+is_valid	handler/feedhandler.php	/^function is_valid(&$result_arr)$/;"	f
+json_src_data	handler/feedhandler.php	/^    $json_src_data = json_encode($src_data);$/;"	v
+key	handler/feedhandler.php	/^        $key = $feed; $/;"	v
+len	lib/socket_util.php	/^        $len = socket_write($socket, $pack, strlen($pack));$/;"	v
+log	lib/log.class.php	/^class log$/;"	c
+magic1	lib/socket_util.php	/^    $magic1 = $key['magic1'];$/;"	v
+magic2	lib/socket_util.php	/^    $magic2 = $key['magic2'];$/;"	v
+mimi_id	lib/socket_util.php	/^    $mimi_id = $key['user_id'];$/;"	v
+myId	process.php	/^        $myId = pcntl_waitpid(-1, $status, 0);$/;"	v
+new_feedid	handler/feedhandler.php	/^    $new_feedid = base64_encode(pack("LSLLLL", $feed['user_id'], $feed["cmd_id"], $feed["app_id"], $feed["timestamp"], $completefeed["magic1"], $completefeed["magic2"]));$/;"	v
+news_	handler/feedhandler.php	/^function news_($feed, &$comfeed, &$completefeed, &$passive_feed)$/;"	f
+news_article	handler/feedhandler.php	/^function news_article($feed, &$comfeed, &$completefeed, &$passive_feed)$/;"	f
+news_comment	handler/feedhandler.php	/^function news_comment($feed, &$comfeed, &$completefeed, &$passive_feed)$/;"	f
+news_liker	handler/feedhandler.php	/^function news_liker($feed, &$comfeed, &$completefeed, &$passive_feed)$/;"	f
+now_time	handler/feedhandler.php	/^    $now_time = time() + 3600;$/;"	v
+operate_feed_to_db	lib/socket_util.php	/^function operate_feed_to_db($storage_server_socket, $key, $feed)$/;"	f
+operate_passive_feed_to_db	lib/socket_util.php	/^function operate_passive_feed_to_db($storage_server_socket, $key, $feed)$/;"	f
+operate_update_feed_id_to_db	lib/socket_util.php	/^function operate_update_feed_id_to_db($redis_server_socket, $user_id, $timestamp) {$/;"	f
+outbox_handle	process.php	/^function outbox_handle($outbox_server_socket, $outbox_reconnect_flag, $output_arr)$/;"	f
+outbox_ip	test/t_storage_server.php	/^$outbox_ip = '10.1.1.44';$/;"	v
+outbox_ip	test/t_storage_server2.php	/^$outbox_ip = '10.1.1.44';$/;"	v
+outbox_port	test/t_storage_server.php	/^$outbox_port = '43321';$/;"	v
+outbox_port	test/t_storage_server2.php	/^$outbox_port = '43321';$/;"	v
+outbox_reconnect_flag	process.php	/^                            $outbox_reconnect_flag = 1;$/;"	v
+outbox_reconnect_flag	process.php	/^                        $outbox_reconnect_flag = 1;$/;"	v
+outbox_reconnect_flag	process.php	/^                    $outbox_reconnect_flag = 1;$/;"	v
+outbox_reconnect_flag	process.php	/^                $outbox_reconnect_flag = 0;$/;"	v
+outbox_reconnect_flag	process.php	/^                $outbox_reconnect_flag = 1;$/;"	v
+outbox_reconnect_flag	process.php	/^        $outbox_reconnect_flag = 0;$/;"	v
+outbox_reconnect_flag	process.php	/^        $outbox_reconnect_flag = 1;$/;"	v
+outbox_reconnect_flag	test/t_storage_server2.php	/^    $outbox_reconnect_flag = 0;$/;"	v
+outbox_reconnect_flag	test/t_storage_server2.php	/^    $outbox_reconnect_flag = 1;$/;"	v
+outbox_reconnect_flag	test/test2.php	/^     $outbox_reconnect_flag = 0;$/;"	v
+outbox_reconnect_flag	test/test2.php	/^     $outbox_reconnect_flag = 1;$/;"	v
+output	process.php	/^        $output = $val; $/;"	v
+output_arr	handler/feedhandler.php	/^        $output_arr = array(array($/;"	v
+output_arr	handler/feedhandler.php	/^    $output_arr = array(); $/;"	v
+output_arr	process.php	/^            $output_arr = array(); $/;"	v
+output_arr	read.php	/^$output_arr = array();$/;"	v
+output_arr	test/t_storage_server.php	/^$output_arr = array($/;"	v
+output_arr	test/t_storage_server2.php	/^$output_arr = array($/;"	v
+output_arr	test/t_temp.php	/^$output_arr = array();$/;"	v
+output_arr	test/test2.php	/^ $output_arr = array();                                                   $/;"	v
+pack	lib/socket_util.php	/^            $pack = substr($pack, $len); $/;"	v
+pack	lib/socket_util.php	/^        $pack = substr($pack, $len); $/;"	v
+pack	lib/socket_util.php	/^    $pack = "";$/;"	v
+pack	lib/socket_util.php	/^    $pack = pack("S3", 6, 0xffff, 1);$/;"	v
+pack	process.php	/^                        $pack = "";$/;"	v
+pack	process.php	/^                    $pack = "";$/;"	v
+pack	process.php	/^                    $pack = pack("LSLSL4", 28, 0xfff2, $output['insert_feedid']['user_id'], $output['insert_feedid']['cmd_id'], $output['insert_feedid']['app_id'], $output['insert_feedid']['timestamp'], $output['insert_feedid']['magic1'], $output['insert_feedid']['magic2']);$/;"	v
+pack	process.php	/^                    $pack = pack("LSLSL4", 28, 0xfff3, $output['delete_feedid']['user_id'], $output['delete_feedid']['cmd_id'], $output['delete_feedid']['app_id'], $output['delete_feedid']['timestamp'], $output['delete_feedid']['magic1'], $output['delete_feedid']['magic2']);$/;"	v
+pack	process.php	/^                    $pack = pack("LSLSL4L3L", 44, 0xfff7, $output['delete_feedid']['user_id'], $output['delete_feedid']['cmd_id'], $output['delete_feedid']['app_id'], $output['delete_feedid']['timestamp'], $output['delete_feedid']['magic1'], $output['delete_feedid']['magic2'], $output['delete_feedid']['sender_uid'], $output['delete_feedid']['target_uid'], $output['delete_feedid']['passive_magic'], 0);$/;"	v
+pack	process.php	/^                    $pack = pack("LSLSL4LSL4", 50, 0xfff1, $output['update_new_feedid']['user_id'], $output['update_new_feedid']['cmd_id'],  $output['update_new_feedid']['app_id'], $output['update_new_feedid']['timestamp'], $output['update_new_feedid']['magic1'], $output['update_new_feedid']['magic2'], $output['update_old_feedid']['user_id'], $output['update_old_feedid']['cmd_id'],  $output['update_old_feedid']['app_id'], $output['update_old_feedid']['timestamp'], $output['update_old_feedid']['magic1'], $output['update_old_feedid']['magic2']);$/;"	v
+pack	process.php	/^                    $pack = pack("LSLSL7L", 44, 0xFFF6, $output['insert_feedid']['user_id'], $output['insert_feedid']['cmd_id'], $output['insert_feedid']['app_id'], $output['insert_feedid']['timestamp'], $output['insert_feedid']['magic1'], $output['insert_feedid']['magic2'], $output['insert_feedid']['sender_uid'], $output['insert_feedid']['target_uid'], $output['insert_feedid']['passive_magic'], $output['insert_feedid']['update_timestamp']);$/;"	v
+pack	process.php	/^                    $pack = pack("LSLSL7LLSL7L", 82, 0xfff5, $output['update_new_feedid']['user_id'], $output['update_new_feedid']['cmd_id'],  $output['update_new_feedid']['app_id'], $output['update_new_feedid']['timestamp'], $output['update_new_feedid']['magic1'], $output['update_new_feedid']['magic2'], $output['update_new_feedid']['sender_uid'], $output['update_new_feedid']['target_uid'], $output['update_new_feedid']['passive_magic'], $output['update_new_feedid']['update_timestamp'],  $output['update_old_feedid']['user_id'], $output['update_old_feedid']['cmd_id'],  $output['update_old_feedid']['app_id'], $output['update_old_feedid']['timestamp'], $output['update_old_feedid']['magic1'], $output['update_old_feedid']['magic2'], $output['update_old_feedid']['sender_uid'], $output['update_old_feedid']['target_uid'], $output['update_old_feedid']['passive_magic'], $output['update_old_feedid']['update_timestamp']);$/;"	v
+pack	process.php	/^        $pack = "";$/;"	v
+pack	process.php	/^        $pack = pack("S4", 8, 0xffff, 2, $task["task_id"]);$/;"	v
+pack	read.php	/^$pack = fread($fd, filesize($argv[1]));$/;"	v
+pack	test/t_storage_server.php	/^$pack = "";$/;"	v
+pack	test/t_storage_server.php	/^$pack = pack("LSLSL4", 28, 0xfff2, $output_arr['insert_feedid']['user_id'],$output_arr['insert_feedid']['cmd_id'], $output_arr['insert_feedid']['app_id'], $output_arr['insert_feedid']['timestamp'],$output_arr['insert_feedid']['magic1'], $output_arr['insert_feedid']['magic2']);$/;"	v
+pack	test/t_storage_server.php	/^$pack = pack("LSLSL4LSL4", 50, 0xfff1, $output_arr['update_new_feedid']['user_id'],    $/;"	v
+pack	test/t_temp.php	/^$pack = pack("SSLCLLL2S",$feed['len'],$feed['opt_id'],$feed['user_id'],$feed['version'],$feed['timestamp'],$feed['app_id'],$feed['magic1'],$feed['magic2'],$feed['cmd_id']);$/;"	v
+pack	test/test2.php	/^$pack = pack("SSLCL4SLC", 32, 201, 35, 1, 1308240000, 500, 1,1, 7007, 10134, 130); $/;"	v
+pack	test/test2.php	/^$pack = pack("SSLCL4SLCa430L2a430L3", 912, 202, 50439, 1, 0, 500, 1,1, 7007, 10134, 1, '评论下', 55, 1308250000, '回复下',1308260000, 56, 8880161); $/;"	v
+pack	test/test2.php	/^$pack = pack("SSLCL4SLCa430L2a430L3", 912, 202, 8880161, 1, 0, 500, 1,1, 7007, 10134, 0, '', 0, 0, '评论下2',1308270000, 57, 50439); $/;"	v
+pack	test/test2.php	/^$pack = pack("SSLCL4SLCa430L2a430L3", 912, 202, 8880161, 1, 0, 500, 1,1, 7007, 10134, 0, '', 44, 0, '评论下',1308250000, 55, 50439); $/;"	v
+para	handler/feedhandler.php	/^    $para = http_build_query($arr_para);$/;"	v
+para	lib/socket_util.php	/^        $para = array_merge($request_pack_format, $request_pack_content);$/;"	v
+para	lib/socket_util.php	/^    $para = array_merge($request_pack_format, $request_pack_content);$/;"	v
+parent_signal_handler	process.php	/^function parent_signal_handler($signo)$/;"	f
+parse	handler/feedhandler.php	/^    $parse = unpack("Clen", $feed["data"]);$/;"	v
+passive_feed_handler	handler/feedhandler.php	/^function passive_feed_handler($storage_server_socket, $feed, $is_dest, &$retval)$/;"	f
+pid	process.php	/^        $pid = pcntl_fork();$/;"	v
+pid	process.php	/^    $pid = pcntl_fork();$/;"	v
+process_control	process.php	/^function process_control()$/;"	f
+produce_passive_feed	handler/feedhandler.php	/^function produce_passive_feed($feed, $sender_uid, $target_uid, $data)$/;"	f
+query_url	handler/feedhandler.php	/^    $query_url = implode('?', array($server_url,$para));$/;"	v
+reboot_children_process	process.php	/^function reboot_children_process($key)$/;"	f
+recv_data	lib/socket_util.php	/^        $recv_data = socket_read($socket, 4096);$/;"	v
+recv_data	lib/socket_util.php	/^function recv_data($socket, $pack_size, &$pack)$/;"	f
+recv_data_and_nonblock	lib/socket_util.php	/^function recv_data_and_nonblock($socket, $pack_size, &$pack, $timeout)$/;"	f
+relation_resp	handler/feedhandler.php	/^    $relation_resp = "";$/;"	v
+relation_rqst	handler/feedhandler.php	/^        $relation_rqst = $relation_rqst.pack('L', $tag[$i]['tag']);$/;"	v
+relation_rqst	handler/feedhandler.php	/^       $relation_rqst = pack("LLsLLLLL", 18 + 12 + strlen($new_feedid)+strlen($feed["data"]), 0, 0xA103, 0, $src_data['author_id'],  $feed["timestamp"], $rv['tag_cnt'], strlen($new_feedid)).$new_feedid;$/;"	v
+relation_rqst	handler/feedhandler.php	/^    $relation_rqst = pack("LLsLL", 18, 0, 0xB104, 0, $src_data['author_id']);$/;"	v
+relation_rqst	handler/feedhandler.php	/^    $relation_rqst = pack("LLsLLLLL", 18 + 12 + strlen($new_feedid)+strlen($feed["data"]), 0, 0xA103, 0, $src_data['author_id'],  $feed["timestamp"], $rv['tag_cnt'], strlen($new_feedid)).$new_feedid.$feed["data"];$/;"	v
+reply_key	test/t_storage_server.php	/^$reply_key = array($/;"	v
+request	lib/socket_util.php	/^    $request = pack("LLsLLL", 22, 1001, 0xA101, 0, $user_id, $timestamp);$/;"	v
+request_pack	lib/socket_util.php	/^        $request_pack = call_user_func_array('pack',array_values($para));$/;"	v
+request_pack	lib/socket_util.php	/^    $request_pack = call_user_func_array('pack',array_values($para));$/;"	v
+request_pack_content	lib/socket_util.php	/^        $request_pack_content = array($/;"	v
+request_pack_content	lib/socket_util.php	/^    $request_pack_content = array($/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LLSL4LSL4a{$temp}");$/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LLSL4a{$temp}");$/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LLSL7La{$temp}");$/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LSL3");$/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LSL4");$/;"	v
+request_pack_format	lib/socket_util.php	/^        $request_pack_format = array("LS2LSL4L3LLSL7La{$temp}");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LS2L2S2");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LS2L3");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LSL3");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LSL4");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LSL4L3");$/;"	v
+request_pack_format	lib/socket_util.php	/^    $request_pack_format = array("LS2LSL7");$/;"	v
+response	lib/socket_util.php	/^        $response = substr($response, $row['len']); $/;"	v
+response	lib/socket_util.php	/^    $response = substr($response_pack, 8);$/;"	v
+response_pack	lib/socket_util.php	/^        $response_pack = "";$/;"	v
+response_pack	lib/socket_util.php	/^    $response_pack = "";$/;"	v
+response_pack_content	lib/socket_util.php	/^        $response_pack_content = unpack("Llen\/Sret\/Sunits", $response_pack); $/;"	v
+response_pack_content	lib/socket_util.php	/^    $response_pack_content = unpack("Llen\/Sret\/Sunits", $response_pack); $/;"	v
+restart	server.sh	/^function restart()$/;"	f
+result	lib/socket_util.php	/^    $result = array($/;"	v
+result	lib/socket_util.php	/^    $result = socket_connect($socket, $ip, $port);$/;"	v
+result_arr	handler/feedhandler.php	/^    $result_arr = json_decode($result_arr, true); $/;"	v
+ret	handler/feedhandler.php	/^                    $ret = operate_feed_to_db($storage_server_socket, $comfeed, $completefeed); $/;"	v
+ret	handler/feedhandler.php	/^                $ret = operate_feed_to_db($storage_server_socket, $comfeed, $completefeed); $/;"	v
+ret	handler/feedhandler.php	/^                $ret = operate_feed_to_db($storage_server_socket, $comfeed, $completefeed);$/;"	v
+ret	handler/feedhandler.php	/^                $ret = operate_passive_feed_to_db($storage_server_socket, NULL, $val); $/;"	v
+ret	handler/feedhandler.php	/^            $ret = operate_feed_to_db($storage_server_socket, $feed, $feed_content); $/;"	v
+ret	handler/feedhandler.php	/^            $ret = operate_passive_feed_to_db($storage_server_socket, NULL, $val); $/;"	v
+ret	handler/feedhandler.php	/^        $ret = operate_feed_to_db($storage_server_socket, $feed, $feed_content); $/;"	v
+ret	handler/feedhandler.php	/^        $ret = operate_update_feed_id_to_db($g_redis_server_socket, $feed["user_id"], $feed["timestamp"]);$/;"	v
+ret	handler/feedhandler.php	/^        $ret = passive_feed_handler($storage_server_socket, $feed, false, $ret_val1);$/;"	v
+ret	handler/feedhandler.php	/^        $ret = passive_feed_handler($storage_server_socket, $feed, true, $ret_val);$/;"	v
+ret	handler/feedhandler.php	/^    $ret = file_get_contents($query_url);$/;"	v
+ret	handler/feedhandler.php	/^    $ret = get_passive_feed($storage_server_socket, $feed, $result);$/;"	v
+ret	handler/feedhandler.php	/^    $ret = operate_passive_feed_to_db($storage_server_socket, $key, $feed_content); $/;"	v
+ret	test/t_bigpacket.php	/^$ret = operate_feed_to_db($storage_server_socket, $comfeed, $completefeed);$/;"	v
+ret	test/t_insert_feed.php	/^$ret = operate_feed_to_db($storage_server_socket, $comfeed, $completefeed);$/;"	v
+ret	test/t_storage_server.php	/^$ret = operate_feed_to_db($storage_server_socket, $comfeed, $completefeed);$/;"	v
+ret	test/t_storage_server2.php	/^$ret = operate_passive_feed_to_db($storage_server_socket, $comfeed, $completefeed);$/;"	v
+ret	test/t_storage_server2.php	/^$ret = operate_passive_feed_to_db($storage_server_socket, NULL, $completefeed);$/;"	v
+ret	test/t_storage_server2.php	/^$ret = outbox_handle($outbox_server_socket,$outbox_reconnect_flag,$output_arr);$/;"	v
+ret	test/t_update_feed.php	/^$ret = operate_feed_to_db($storage_server_socket, $comfeed, $completefeed);$/;"	v
+ret	test/test2.php	/^$ret = feed_update_sync($pack, $input_arr, &$output_arr);$/;"	v
+ret	test/test2.php	/^$ret = get_feed($storage_server_socket, $feed, $feeds);$/;"	v
+ret	test/test2.php	/^$ret = get_passive_feed($storage_server_socket, $feed, $feeds);$/;"	v
+ret	test/test2.php	/^$ret = operate_feed_to_db($storage_server_socket, $comfeed, $completefeed);    $/;"	v
+row	lib/socket_util.php	/^        $row = unpack("Llen\/Lmimi\/Scmd_id\/Lapp_id\/Ltimestamp\/L2magic", $response);$/;"	v
+row	lib/socket_util.php	/^    $row = unpack("Llen\/Lmimi\/Scmd_id\/Lapp_id\/Ltimestamp\/L2magic", $response);$/;"	v
+row	lib/socket_util.php	/^    $row = unpack("Llen\/Lmimi\/Scmd_id\/Lapp_id\/Ltimestamp\/L2magic\/Lsender_uid\/Ltarget_uid\/Lpassive_magic\/Lupdate_timestamp", $response);$/;"	v
+rv	handler/feedhandler.php	/^    $rv = unpack("Ltag_cnt", $feed["data"]);$/;"	v
+rv	handler/feedhandler.php	/^    $rv = unpack('Llen\/Lseq\/scmd_id\/Lcode\/Lmimi', $relation_resp);$/;"	v
+rv	handler/feedhandler.php	/^    $rv = unpack('Llen\/Lseq\/scmd_id\/Lcode\/Lmimi\/Lunits', $relation_resp);$/;"	v
+s_file_name	lib/log.class.php	/^            $s_file_name = substr(basename($s_target), 0, strrpos(basename($s_target), '.log')) . '_' . time() . '.log';$/;"	v
+s_now_day	lib/log.class.php	/^        $s_now_day  = date('Y_m_d');$/;"	v
+s_now_time	lib/log.class.php	/^        $s_now_time = date('[y-m-d H:i:s]');$/;"	v
+s_target	lib/log.class.php	/^        $s_target   = LOG_PATH . DS;$/;"	v
+s_time	lib/socket_util.php	/^            $s_time = time();$/;"	v
+s_time	lib/socket_util.php	/^    $s_time = time();$/;"	v
+send_data	lib/socket_util.php	/^function send_data($socket, $pack)$/;"	f
+send_data_and_nonblock	lib/socket_util.php	/^function send_data_and_nonblock($socket, $pack, $timeout)$/;"	f
+socket	lib/socket_util.php	/^    $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);$/;"	v
+src_data	handler/feedhandler.php	/^    $src_data = unpack("Larticle_id", $feed["data"]);$/;"	v
+src_data	handler/feedhandler.php	/^    $src_data = unpack("Larticle_id\/Lauthor_id", $feed["data"]);$/;"	v
+src_data	handler/feedhandler.php	/^    $src_data = unpack("Ltype\/Larticle_id\/Lauthor_id\/Lcomment_mid\/Lcomment_id", $feed["data"]);$/;"	v
+start	server.sh	/^function start()$/;"	f
+state	server.sh	/^function state()$/;"	f
+stop	server.sh	/^function stop()$/;"	f
+storage_ip	test/t_bigpacket.php	/^$storage_ip = '10.1.1.44';$/;"	v
+storage_ip	test/t_insert_feed.php	/^$storage_ip = '10.1.1.44';$/;"	v
+storage_ip	test/t_storage_server.php	/^$storage_ip = '10.1.1.44';$/;"	v
+storage_ip	test/t_storage_server2.php	/^$storage_ip = '10.1.1.44';$/;"	v
+storage_ip	test/t_update_feed.php	/^$storage_ip = '10.1.1.44';$/;"	v
+storage_port	test/t_bigpacket.php	/^$storage_port = '2222';$/;"	v
+storage_port	test/t_insert_feed.php	/^$storage_port = '2222';$/;"	v
+storage_port	test/t_storage_server.php	/^$storage_port = '2222';$/;"	v
+storage_port	test/t_storage_server2.php	/^$storage_port = '2222';$/;"	v
+storage_port	test/t_update_feed.php	/^$storage_port = '2222';$/;"	v
+storage_server_socket	handler/feedhandler.php	/^        $storage_server_socket = $input_arr['storage_server_socket'];    $/;"	v
+storage_server_socket	handler/feedhandler.php	/^        $storage_server_socket = $input_arr['storage_server_socket'];$/;"	v
+storage_server_socket	handler/feedhandler.php	/^    $storage_server_socket = $input_arr['storage_server_socket'];$/;"	v
+str	handler/feedhandler.php	/^        $str = substr($pack, 0, 27);$/;"	v
+str	handler/feedhandler.php	/^        $str = substr($pack, 0, 35);$/;"	v
+str	test/test.php	/^                             $str = json_decode($result_feed[$i]['data'],true);$/;"	v
+str_log	handler/feedhandler.php	/^        $str_log = pack("SSLCLL",$feed["len"],$feed["cmd_id"],$feed["user_id"],$feed["version"],$feed["timestamp"],$feed["app_id"]);$/;"	v
+str_log	handler/feedhandler.php	/^        $str_log = pack("SSLCLL",$feed["len"],$feed["cmd_id"],$feed["user_id"],$feed["version"],$feed["timestamp"],$feed['app_id']);$/;"	v
+str_log_file	handler/feedhandler.php	/^        $str_log_file = '.\/log\/'.$pre.'_data'.posix_getpid().'.log';$/;"	v
+str_log_file	handler/feedhandler.php	/^        $str_log_file = '.\/log\/data'.posix_getpid().'.log';$/;"	v
+tag	handler/feedhandler.php	/^    $tag = array();$/;"	v
+task	process.php	/^    $task = unpack("Slen\/Stask_id",$taskpack);$/;"	v
+temp	lib/socket_util.php	/^        $temp = strlen($feed['data']); $/;"	v
+temp	lib/socket_util.php	/^        $temp = unpack("Llen", $response_pack);$/;"	v
+temp	lib/socket_util.php	/^    $temp = unpack("Llen", $response_pack);$/;"	v
+temp	lib/socket_util.php	/^    $temp = unpack("Llen\/Lseq\/scmd\/Lcode\/Lmid", $response_pack);$/;"	v
+temp	process.php	/^                            $temp = unpack("Llen\/Sresult", $pack);$/;"	v
+temp	process.php	/^                        $temp = unpack("Llen\/Sresult", $pack);$/;"	v
+temp	process.php	/^        $temp = unpack("Slen",$pack);$/;"	v
+temp	test/t_storage_server.php	/^$temp = unpack("Llen\/Sresult", $pack);$/;"	v
+temp_feed	handler/feedhandler.php	/^                    $temp_feed = $feed;$/;"	v
+temp_key	lib/socket_util.php	/^        $temp_key = json_decode($row['data'],true);$/;"	v
+temp_source	handler/feedhandler.php	/^                        $temp_source = $result;$/;"	v
+timestamp	lib/socket_util.php	/^    $timestamp = $key['timestamp'];$/;"	v
+timestamp	test/t_mysql.php	/^$timestamp = strtotime('20110324010023');$/;"	v
+timestamp	test/t_mysql.php	/^$timestamp = strtotime('20110324020000');$/;"	v
+units	lib/socket_util.php	/^    $units = $response_pack_content['units']; $/;"	v
+usage	server.sh	/^function usage()$/;"	f
+user_id	test/t_mysql.php	/^$user_id = 1;$/;"	v
+verify	handler/feedhandler.php	/^        $verify = md5($str);$/;"	v
+verify	test/t_temp.php	/^$verify = md5($pack.DELETE_SECRET_KEY);$/;"	v
+write	lib/log.class.php	/^    public static function write($s_message, $s_type = 'log')$/;"	f

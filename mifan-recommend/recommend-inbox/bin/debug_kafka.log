@@ -1,0 +1,140 @@
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563949218376,
+   'partition' => 0,
+   'payload' => 'protobuf . ®ß¼dP',
+   'len' => 20,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563949272736,
+   'partition' => 0,
+   'payload' => 'protobuf . ®ß¼dP',
+   'len' => 20,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563949474678,
+   'partition' => 0,
+   'payload' => 'protobuf . ®ß¼dP',
+   'len' => 20,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563949828998,
+   'partition' => 0,
+   'payload' => 'protobuf . ®ß¼dP',
+   'len' => 20,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563950023055,
+   'partition' => 0,
+   'payload' => 'protobuf . ®ß¼dP',
+   'len' => 20,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563950068630,
+   'partition' => 0,
+   'payload' => 'protobuf . ®ß¼dP',
+   'len' => 20,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563950525300,
+   'partition' => 0,
+   'payload' => 'protobuf . ',
+   'len' => 11,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563950563354,
+   'partition' => 0,
+   'payload' => 'protobuf . ®ß¼dP',
+   'len' => 20,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563950967166,
+   'partition' => 0,
+   'payload' => 'protobuf . ®ß¼dP',
+   'len' => 20,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563951069449,
+   'partition' => 0,
+   'payload' => '®ß¼dP',
+   'len' => 9,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563951088060,
+   'partition' => 0,
+   'payload' => '®ß¼dP',
+   'len' => 9,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563951242601,
+   'partition' => 0,
+   'payload' => '®ß¼dP',
+   'len' => 9,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563951321586,
+   'partition' => 0,
+   'payload' => '®ß¼dP',
+   'len' => 9,
+   'key' => 'protobuf',
+   'offset' => 0,
+))
+RdKafka\Message::__set_state(array(
+   'err' => 0,
+   'topic_name' => 'mifan-note-recommend-alarm',
+   'timestamp' => 1563951337702,
+   'partition' => 0,
+   'payload' => '®ß¼dP',
+   'len' => 9,
+   'key' => 'protobuf',
+   'offset' => 0,
+))

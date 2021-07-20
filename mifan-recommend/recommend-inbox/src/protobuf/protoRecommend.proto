@@ -1,0 +1,29 @@
+syntax = "proto3";
+package mifan;
+
+option optimize_for = LITE_RUNTIME;
+
+message pullReq {
+    int32 count = 1;
+}
+
+message pullRes {
+    repeated string feedid = 1;
+}
+
+message pushReq {
+    message feedInfo {
+        string feedid = 1;
+        int32 score = 2;
+    }
+
+    int32 userid = 1;
+    int32 index = 2;
+    repeated feedInfo info = 3;
+}
+
+message noteRecommendAlarm {
+    int32 userid = 1;
+    int32 count = 2;
+    int32 index = 3;
+}

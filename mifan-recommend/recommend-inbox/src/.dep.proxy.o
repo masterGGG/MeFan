@@ -1,0 +1,6 @@
+proxy.o: proxy.cpp ../../../friend_backend/common/async_server.h \
+ ../../../friend_backend/common/log.h proto.h proxy.h \
+ ../../../friend_backend/common/processor.h pool_processor.h \
+ ../../../friend_backend/hiredis/hiredis.h \
+ ../../../friend_backend/hiredis/read.h \
+ ../../../friend_backend/hiredis/sds.h redis_sentinel.h

@@ -1,0 +1,20 @@
+syntax = "proto3";
+package mifan;
+
+option optimize_for = LITE_RUNTIME;
+
+message imgPush {
+    bool retry = 1;
+//    int32 ip = 2;
+//    int32 mimi = 3;
+    string info = 2;
+}
+
+message imgPopRqst {
+    bool retry = 1;
+}
+
+message imgPopResp {
+    string info = 1;
+}
+
